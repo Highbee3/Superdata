@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/signin.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"><a href="/index.html">SUPERDATA</a></div>
+        <ul id="navlink">
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/signin.html">SIGN IN</a></li>
+            <li><a href="/signup.html">SIGN UP</a></li>
+        </ul>
+        <div class="menu" id="Menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+
+    <div class="form">
+        <form action="/image/reliable-removebg-preview.png">
+            <span>SIGN IN</span>
+            <p>Great to have you back!</p>
+
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="password" required>
+            <header>
+                <div class="nth">
+                    <input type="checkbox">  <p>show passwords</p></div>
+                    <a href="">Forgot your Password?</a>
+                </header>
+
+                <button> Login</button>
+
+
+        </form>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const navlink = document.getElementById("navlink");
+        const menu = document.getElementById("Menu");
+
+        menu.addEventListener("click", () => {
+            navlink.classList.toggle("hidden");
+        });
+    </script>
+
+</body>
+</html>
